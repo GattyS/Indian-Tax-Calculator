@@ -8,6 +8,9 @@
     "build": "vite build",
     "preview": "vite preview"
   },
+  "publishConfig": {
+  "registry": "https://npm.pkg.github.com"
+},
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
